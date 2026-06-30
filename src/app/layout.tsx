@@ -15,11 +15,11 @@ const playfair = Playfair_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Shahmeer Irfan | Full Stack Engineer",
-  description: "Professional portfolio of Shahmeer Irfan, a Full Stack Engineer building high-performance web products that hold up in production.",
-  keywords: ["Shahmeer Irfan", "Full Stack Engineer", "Developer", "Portfolio", "Next.js", "React", "TypeScript"],
-  authors: [{ name: "Shahmeer Irfan" }],
-  creator: "Shahmeer Irfan",
+  title: "Muhammad Hashir | Full Stack Engineer",
+  description: "Professional portfolio of Muhammad Hashir, a Full Stack Engineer building high-performance web products that hold up in production.",
+  keywords: ["Muhammad Hashir", "Full Stack Engineer", "Developer", "Portfolio", "Next.js", "React", "TypeScript"],
+  authors: [{ name: "Muhammad Hashir" }],
+  creator: "Muhammad Hashir",
 };
 
 export default function RootLayout({

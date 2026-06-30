@@ -11,7 +11,7 @@ export default function Footer() {
           &ldquo;If you&apos;ve got a full-stack idea that needs to stop being a slide deck and start being a thing your customers actually use, that&apos;s the part I love most.&rdquo;
         </blockquote>
         <cite className="font-serif text-sm sm:text-base text-editorial-muted not-italic block mt-2">
-          &mdash; Shahmeer Irfan
+          &mdash; Muhammad Hashir
         </cite>
       </div>
 
@@ -20,7 +20,7 @@ export default function Footer() {
 
       {/* Bottom Credits Strip */}
       <div className="w-full text-center font-mono text-[9px] sm:text-[10px] uppercase tracking-[0.2em] text-editorial-muted">
-        Shahmeer Irfan &bull; Full Stack Engineer &bull; &copy; {new Date().getFullYear()}
+        Muhammad Hashir &bull; Full Stack Engineer &bull; &copy; {new Date().getFullYear()}
       </div>
     </footer>
   );

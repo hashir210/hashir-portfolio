@@ -93,7 +93,7 @@ export default function ContactBanner() {
       {/* Footer Divider & Signature */}
       <div className="w-full h-[1px] bg-editorial-border mb-12" />
       <div className="w-full text-center font-mono text-[9px] sm:text-[10px] uppercase tracking-[0.2em] text-editorial-muted">
-        Shahmeer Irfan &bull; Full Stack Engineer &bull; &copy; {new Date().getFullYear()}
+        Muhammad Hashir &bull; Full Stack Engineer &bull; &copy; {new Date().getFullYear()}
       </div>
     </section>
   );

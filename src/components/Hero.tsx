@@ -17,7 +17,7 @@ export default function Hero() {
 
         {/* Headline Subtitle */}
         <p className="font-sans text-sm sm:text-base text-editorial-muted leading-relaxed mb-10 max-w-lg">
-          I am Shahmeer Irfan, a Software Engineer focusing on backend architecture, database reliability, and responsive client interfaces.
+          I am Muhammad Hashir, a Software Engineer focusing on backend architecture, database reliability, and responsive client interfaces.
         </p>
 
         {/* Stats Table (Bordered Grid) */}

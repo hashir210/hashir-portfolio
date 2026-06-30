@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import Companies from "@/components/Companies";
 import Projects from "@/components/Projects";
+import Capabilities from "@/components/Capabilities";
 import Experience from "@/components/Experience";
 import ContactBanner from "@/components/ContactBanner";
 
@@ -12,8 +12,8 @@ export default function Home() {
       <Navbar />
       <main className="relative">
         <Hero />
-        <Companies />
         <Projects />
+        <Capabilities />
         <Experience />
         <ContactBanner />
       </main>
