@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { motion } from "framer-motion";
 import { ArrowUpRight } from "lucide-react";
 
 const leadProject = {
@@ -63,7 +64,14 @@ export default function Projects() {
       </div>
 
       {/* 1. Lead Project (Sila) - Fullscreen/Full-width Layout */}
-      <div className="border border-editorial-border p-6 sm:p-8 bg-[#FAF8F5] flex flex-col lg:flex-row gap-8 lg:gap-12 items-stretch mb-12">
+      <motion.div
+        className="border border-editorial-border p-6 sm:p-8 bg-[#FAF8F5] flex flex-col lg:flex-row gap-8 lg:gap-12 items-stretch mb-12"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "-100px" }}
+        transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+        whileHover={{ y: -4, transition: { duration: 0.2 } }}
+      >
         {/* Left: Mockup Placeholder */}
         <div className="flex-[3] min-h-[260px] sm:min-h-[360px] bg-[#ECE7E1] border border-dashed border-[#D5CDC3] flex flex-col items-center justify-center text-editorial-muted gap-2 text-xs font-mono p-4">
           <svg className="w-8 h-8 opacity-45" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -114,14 +122,19 @@ export default function Projects() {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* 2. Grid of other 4 projects */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {otherProjects.map((project) => (
-          <div
+        {otherProjects.map((project, idx) => (
+          <motion.div
             key={project.title}
             className="border border-editorial-border p-5 bg-[#FAF8F5] flex flex-col justify-between"
+            initial={{ opacity: 0, y: 35 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1], delay: idx * 0.1 }}
+            whileHover={{ y: -4, transition: { duration: 0.2 } }}
           >
             <div>
               {/* Project Card Mockup Space */}
@@ -182,7 +195,7 @@ export default function Projects() {
                 </a>
               </div>
             </div>
-          </div>
+          </motion.div>
         ))}
       </div>
     </section>

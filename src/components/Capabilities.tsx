@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import { motion } from "framer-motion";
 
 const capabilitiesList = [
   {
@@ -47,9 +48,13 @@ export default function Capabilities() {
         {/* Right Side: Detailed List */}
         <div className="w-full lg:w-3/4 flex flex-col border-t border-editorial-border">
           {capabilitiesList.map((cap, idx) => (
-            <div
+            <motion.div
               key={idx}
               className="py-10 border-b border-editorial-border flex flex-col md:flex-row gap-6 md:gap-12 justify-between items-start"
+              initial={{ opacity: 0, y: 25 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true, margin: "-50px" }}
+              transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1], delay: idx * 0.05 }}
             >
               {/* Capability Title */}
               <div className="md:w-1/3">
@@ -64,7 +69,7 @@ export default function Capabilities() {
                   {cap.description}
                 </p>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>
