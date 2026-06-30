@@ -23,11 +23,11 @@ export default function Hero() {
         {/* Stats Table (Bordered Grid) */}
         <div className="border-t border-editorial-border mb-10 flex flex-col font-mono text-xs tracking-wider">
           <div className="py-4 border-b border-editorial-border flex justify-between items-center">
-            <span className="uppercase text-editorial-dark font-bold">3+ Years</span>
+            <span className="uppercase text-editorial-dark font-bold">1.5+ Years</span>
             <span className="uppercase text-editorial-muted">in software development</span>
           </div>
           <div className="py-4 border-b border-editorial-border flex justify-between items-center">
-            <span className="uppercase text-editorial-dark font-bold">20+ Projects</span>
+            <span className="uppercase text-editorial-dark font-bold">10+ Projects</span>
             <span className="uppercase text-editorial-muted">delivered to production</span>
           </div>
           <div className="py-4 border-b border-editorial-border flex justify-between items-center">
