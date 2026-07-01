@@ -30,11 +30,8 @@ export default function Skills() {
   return (
     <section id="skills" className="py-20 px-6 sm:px-12 max-w-7xl mx-auto border-b border-editorial-border">
       <div className="flex flex-col lg:flex-row gap-12 items-start">
-        {/* Left Side: Number & Header */}
-        <div className="w-full lg:w-1/4 flex items-baseline gap-4 select-none">
-          <span className="font-serif text-5xl sm:text-6xl font-black text-editorial-dark opacity-15">
-            04
-          </span>
+        {/* Left Side: Header */}
+        <div className="w-full lg:w-1/4 select-none">
           <span className="font-mono text-xs uppercase tracking-widest text-editorial-muted">
             Technical Skills
           </span>

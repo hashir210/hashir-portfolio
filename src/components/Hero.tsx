@@ -100,22 +100,13 @@ export default function Hero() {
         whileHover={{ rotate: 0, scale: 1.02, transition: { duration: 0.3 } }}
       >
         <div className="w-full bg-[#FAF8F5] border border-editorial-border shadow-xl p-5 pb-8 flex flex-col gap-4 select-none">
-          {/* Polaroid Image Space (Empty styled block) */}
-          <div className="aspect-[4/3] w-full bg-[#ECE7E1] border border-dashed border-[#D5CDC3] flex flex-col items-center justify-center text-editorial-muted gap-2 text-xs font-mono p-4">
-            <svg
-              className="w-8 h-8 opacity-40"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={1.5}
-                d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-              />
-            </svg>
-            <span>[photo space]</span>
+          {/* Polaroid Image Space (Actual Image) */}
+          <div className="aspect-[4/3] w-full overflow-hidden border border-[#D5CDC3]">
+            <img
+              src="/workspace.png"
+              alt="My workspace"
+              className="w-full h-full object-cover"
+            />
           </div>
 
           {/* Cursive / Cursive-sans caption */}
