@@ -74,7 +74,7 @@ export default function ContactBanner() {
           </svg>
         </a>
         <a
-          href="https://linkedin.com/in/shahmeer-irfan-423175301"
+          href="https://www.linkedin.com/in/hashir-amir/"
           target="_blank"
           rel="noopener noreferrer"
           className="p-3 border border-editorial-border hover:bg-editorial-dark/5 text-editorial-dark rounded-sm transition-all flex items-center justify-center"

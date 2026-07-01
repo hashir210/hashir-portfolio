@@ -48,7 +48,7 @@ export default function Navbar() {
           </svg>
         </a>
         <a
-          href="https://linkedin.com/in/shahmeer-irfan-423175301"
+          href="https://www.linkedin.com/in/hashir-amir/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-editorial-dark hover:text-editorial-muted transition-colors"

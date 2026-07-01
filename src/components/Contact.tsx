@@ -29,8 +29,8 @@ export default function Contact() {
     },
     {
       label: "LinkedIn",
-      value: "www.linkedin.com/in/shahmeer-irfan-423175301",
-      href: "https://www.linkedin.com/in/shahmeer-irfan-423175301",
+      value: "www.linkedin.com/in/hashir-amir",
+      href: "https://www.linkedin.com/in/hashir-amir/",
       icon: (
         <svg
           className="w-[18px] h-[18px] fill-current"
