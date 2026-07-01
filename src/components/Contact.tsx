@@ -15,15 +15,15 @@ export default function Contact() {
   const contactItems = [
     {
       label: "Email",
-      value: "shameerirfan124@gmail.com",
-      href: "mailto:shameerirfan124@gmail.com",
+      value: "hashir284284@gmail.com",
+      href: "mailto:hashir284284@gmail.com",
       icon: <Mail size={18} />,
       copyable: true,
     },
     {
       label: "Phone",
-      value: "+923158339340",
-      href: "tel:+923158339340",
+      value: "+923434569199",
+      href: "tel:+923434569199",
       icon: <Phone size={18} />,
       copyable: true,
     },

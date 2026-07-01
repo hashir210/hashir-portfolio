@@ -23,16 +23,16 @@ export default function ContactBanner() {
 
       {/* Email Link */}
       <a
-        href="mailto:shameerirfan124@gmail.com"
+        href="mailto:hashir284284@gmail.com"
         className="font-serif text-lg sm:text-2xl font-bold text-editorial-dark hover:underline mb-12 block"
       >
-        shameerirfan124@gmail.com
+        hashir284284@gmail.com
       </a>
 
       {/* Action Buttons Row 1 */}
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-6">
         <a
-          href="https://wa.me/923158339340"
+          href="https://wa.me/923434569199"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full sm:w-auto px-8 py-3.5 bg-[#67728B] hover:bg-[#535C71] text-warm-bg text-[10px] font-mono uppercase tracking-widest flex items-center justify-center gap-2 transition-colors rounded-sm"
@@ -41,7 +41,7 @@ export default function ContactBanner() {
           WhatsApp
         </a>
         <a
-          href="mailto:shameerirfan124@gmail.com"
+          href="mailto:hashir284284@gmail.com"
           className="w-full sm:w-auto px-8 py-3.5 border border-editorial-border hover:bg-editorial-dark/5 text-editorial-dark text-[10px] font-mono uppercase tracking-widest flex items-center justify-center gap-2 transition-all rounded-sm"
         >
           <Mail size={12} />
