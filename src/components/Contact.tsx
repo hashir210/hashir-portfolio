@@ -44,8 +44,8 @@ export default function Contact() {
     },
     {
       label: "GitHub",
-      value: "github.com/shahmeer-irfan",
-      href: "https://github.com/shahmeer-irfan",
+      value: "https://github.com/hashir210",
+      href: "https://github.com/hashir210",
       icon: (
         <svg
           className="w-[18px] h-[18px] fill-current"

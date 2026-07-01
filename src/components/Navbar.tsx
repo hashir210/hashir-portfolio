@@ -33,7 +33,7 @@ export default function Navbar() {
       {/* Right social icons & Contact Button */}
       <div className="md:flex-1 flex justify-center md:justify-end items-center gap-4">
         <a
-          href="https://github.com/shahmeer-irfan"
+          href="https://github.com/hashir210"
           target="_blank"
           rel="noopener noreferrer"
           className="text-editorial-dark hover:text-editorial-muted transition-colors"

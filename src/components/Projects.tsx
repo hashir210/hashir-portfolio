@@ -11,7 +11,7 @@ const leadProject = {
   description:
     "A zero-commission Zakat directory connecting donors directly to verified families across Pakistan. Real need is checked through documents, then donors are routed to the family's WhatsApp and EasyPaisa — Sila holds no money and takes no cut.",
   tech: "NEXT.JS • TYPESCRIPT • TAILWIND • FRAMER MOTION",
-  github: "https://github.com/shahmeer-irfan",
+  github: "https://github.com/hashir210",
   live: "https://example.com",
 };
 
@@ -22,7 +22,7 @@ const otherProjects = [
     description:
       "A recruitment platform that connects Pakistan's blue-collar workers with employers. Smart job matching, escrow payments, ID and skills verification, plus a reputation system to keep both sides accountable. Built end-to-end solo.",
     tech: "NEXT.JS 16 • REACT 19 • TYPESCRIPT • POSTGRESQL",
-    github: "https://github.com/shahmeer-irfan",
+    github: "https://github.com/hashir210",
     live: "https://example.com",
   },
   {
@@ -31,7 +31,7 @@ const otherProjects = [
     description:
       "A multi-agent investment tool that reads raw bank transactions to figure out spending behaviour, then forecasts 21-day stock moves. Five AI agents extract behavioural signals; a machine-learning ensemble drives the predictions.",
     tech: "CREWAI • CLAUDE SONNET 3.5 • SCIKIT-LEARN",
-    github: "https://github.com/shahmeer-irfan",
+    github: "https://github.com/hashir210",
     live: "https://example.com",
   },
   {
@@ -40,7 +40,7 @@ const otherProjects = [
     description:
       "An AI emergency response system that dispatches Karachi ambulances in under 30 seconds. Understands Urdu speech, triages with an LLM, and broadcasts to nearby responders in real time.",
     tech: "LANGGRAPH • GROQ WHISPER • LLAMA 3.3 70B • WEB RTC",
-    github: "https://github.com/shahmeer-irfan",
+    github: "https://github.com/hashir210",
     live: "https://example.com",
   },
   {
@@ -49,7 +49,7 @@ const otherProjects = [
     description:
       "A Tinder-style PWA for FAST University students to connect by skills, campus, and city. Hit 3,000+ views in week one and 100+ monthly active users at launch.",
     tech: "NEXT.JS 16 • REACT 19 • SUPABASE • FIREBASE FCM",
-    github: "https://github.com/shahmeer-irfan",
+    github: "https://github.com/hashir210",
     live: "https://example.com",
   },
 ];

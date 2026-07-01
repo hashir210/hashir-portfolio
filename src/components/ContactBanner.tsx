@@ -59,7 +59,7 @@ export default function ContactBanner() {
       {/* Action Buttons Row 2: Github / LinkedIn Icons */}
       <div className="flex justify-center items-center gap-4 mb-16">
         <a
-          href="https://github.com/shahmeer-irfan"
+          href="https://github.com/hashir210"
           target="_blank"
           rel="noopener noreferrer"
           className="p-3 border border-editorial-border hover:bg-editorial-dark/5 text-editorial-dark rounded-sm transition-all flex items-center justify-center"
